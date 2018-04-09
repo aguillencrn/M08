@@ -1,0 +1,147 @@
+@media (max-width:480px){
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+/*----------------------- Inici del Menú Hamburguesa--------------*/
+
+  #nav{
+    width: 50px;
+    height: 300px;
+    margin:0;
+    padding:0;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+  }
+
+  .checkbox{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+
+    top:0px;
+    left: 10px;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .checkbox:checked ~ #menuh{
+    position: fixed;
+    left: 0;
+    transition: 1s;
+
+  }
+
+  #burger{
+    background-color: red;
+    margin: 0;
+    padding: 5px 0 0 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 300px;
+  }
+
+  #burger li{
+    list-style: none;
+    width: 30px;
+    height: 5px;
+    margin: 0 5px;
+
+  }
+
+  #menuh{
+    background-color: red;
+    width: 130px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    padding-left: -20px;
+    position: absolute;
+    top: 50px;
+    left: -250%;
+    }
+
+    #menuh li{
+      list-style-type: none;
+      font-size: 24px;
+      margin: 0;
+    }
+
+/*----------------------- Fin del Menú Hamburguesa--------------*/
+
+
+
+#cap{
+  background-color: blue;
+  height: 150px;
+  overflow:hidden;
+  background-color: #2BFBE8
+}
+
+.index{
+width: 15%;
+border: solid 1px; white;
+text-align: center;
+float: left;
+color: white;
+display: block;
+height: 50 px;
+margin-left: 10px;
+margin-top: 9px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#cos{
+  background-color: yellow ;
+  width: 100%;
+  padding: 10px 10px 1px 10px;
+ background-color: #08D0BE
+}
+
+.noticia{
+  background-color: green;
+  height: 300px;
+  margin-bottom: 10px;
+  background-color: #009B8D
+}
+
+#menu{
+  background-color: purple;
+  width: 100%;
+  padding: 10px 10px 1px 10px;
+  background-color: #74FEF1
+
+}
+
+.opinio{
+  background-color: #0E9387;
+  height: 300px;
+  margin-bottom: 10px
+
+}
+
+#peu{
+  background-color: #2BFBE8 ;
+  height: 70px;
+  width: 100%;
+  float: left;
+
+}
+
+
+
+}
